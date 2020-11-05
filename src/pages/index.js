@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react'
 import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
+// import CMS from 'netlify-cms-app'
 
 import Layout from '../components/Layout'
 import Posts from '../components/Posts'
@@ -15,6 +16,9 @@ import config from '../utils/config'
 import projects from '../data/projects'
 import interviews from '../data/interviews'
 import speaking from '../data/speaking'
+
+// Initialize the CMS object
+// CMS.init()
 
 export default function BlogIndex({ data }) {
   const latest = data.latest.edges
@@ -72,7 +76,7 @@ export default function BlogIndex({ data }) {
       </Blurb> */}
       <Blurb>
         <section className="small lead">
-          <h1>Hey, I'm Tania</h1>
+          <h1>Hey, I'm Saugaat</h1>
           <p className="subtitle">
             I'm a software engineer, technical writer, and{' '}
             <a

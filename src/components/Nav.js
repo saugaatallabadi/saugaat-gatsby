@@ -12,7 +12,7 @@ export default function Nav() {
               <span className="emoji">
                 <img src={floppy} alt="Floppy Diskette" />
               </span>{' '}
-              Tania Rascia
+              Saugaat Allabadi
             </Link>
           </div>
           <div className="flex">
@@ -49,7 +49,7 @@ export default function Nav() {
               }}
             >
               {typeof window !== 'undefined' &&
-              localStorage.getItem('theme') === 'dark'
+                localStorage.getItem('theme') === 'dark'
                 ? '☀️'
                 : '🌙'}
             </button>

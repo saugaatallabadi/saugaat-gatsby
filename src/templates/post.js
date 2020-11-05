@@ -57,7 +57,7 @@ export default function PostTemplate({ data, pageContext }) {
                   <h1>{title}</h1>
                   <div className="post-meta">
                     <div>
-                      By <Link to="/me">Tania Rascia</Link> on{' '}
+                      By <Link to="/me">Saugaat Allabadi</Link> on{' '}
                       <time>{date}</time>
                     </div>
                     {tags && (
@@ -87,7 +87,7 @@ export default function PostTemplate({ data, pageContext }) {
       </div>
       <Blurb title="About the author">
         <p>
-          Hey, I'm <Link to="/me">Tania</Link>, a software engineer, writer, and
+          Hey, I'm <Link to="/me">Saugaat</Link>, a software engineer, writer, and
           open-source creator. I publish guides and tutorials about modern
           JavaScript, design, and programming.
         </p>
