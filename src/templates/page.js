@@ -30,13 +30,26 @@ export default function PageTemplate({ data }) {
 }
 
 export const pageQuery = graphql`
-  query PageBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query($path: String!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
+        date
+        path
         title
-        description
+        thumbnail {
+          childImageSharp {
+            fixed(width: 100, height: 100) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
     }
   }
-`
+  `

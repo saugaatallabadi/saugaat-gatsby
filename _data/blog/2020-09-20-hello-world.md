@@ -1,12 +1,12 @@
 ---
 template: BlogPost
-path: /hello-world
-date: 2020-02-20T07:08:53.137Z
-title: Hello WorldBLOG
+path: /my-article-two
+date: 2020-10-20T07:08:53.137Z
+title: My Article 2
 tags: ['adhd', 'productivity']
-categoies: Popular
-slug: contact
-thumbnail: "../images/dither.jpg"
+categories: Popular
+slug: my-article-one
+thumbnail: "content/images/dither.png"
 topic: Meta description for Hello World
 description: Meta description for Hello World
 ---
