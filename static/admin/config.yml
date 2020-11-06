@@ -42,8 +42,8 @@ collections:
                 required: false
   - name: blog
     label: Blog
-    folder: _data/blog
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    folder: content/blog
+    slug: '{{slug}}'
     create: true
     fields:
       - {
